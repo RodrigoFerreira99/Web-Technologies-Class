@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first HTML page</title>
+</head>
+<body>
+    <h1>Welcome to <b>my</b> new page</h1>
+    <p>This is a <i>simple</i> <u>HTML</u> page. < >&</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <a href="https://google.com/" target="_blank" >
+        Google
+    </a>
+    <img src="blog_article.jpg" alt="aeroporto" width="500">
+
+    <form>
+        Email:<br><input type="text" name="email" placeholder="Digite o seu email" required>
+        <br>
+        Password:<br><input type="password" name="password" placeholder="Digite a sua palavra-passe" required>
+        <br><br>
+        <input type="submit" value="Sign in">
+        <br><br>
+    </form>
+
+    <form>
+        Nome:<input type="text" name="nome" placeholder="Escreve o seu nome" required minlength="3">
+        <br>
+        Email:<input type="email" name="email" placeholder="Escreve o seu email" required>
+        <br>
+        Idade:<input type="number" name="idade" required>
+        <br>
+        Data de nascimento: <input type="date" name="dataDeNascimento">
+        <br>
+        <label for="paises">Nacionalidade:</label>
+        <select name="paises" id="paises">
+            <option value="pt">Portugal</option>
+            <option value="esp">Espanha</option>
+            <option value="nig">Nigeria</option>
+            <option value="fr">França</option>
+        </select>
+        <br>
+        Palavra-passe:<input type="password" name="password" required>
+        <br><br>
+        <input type="submit" value="Submeter formulário">
+        <br><br>
+    </form>
+</body>
+</html>
